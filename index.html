@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VM Events | Catering & Events</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+
+<meta name="theme-color" content="#9d1111">
+
+<meta
+    name="mobile-web-app-capable"
+    content="yes">
+
+<meta
+    name="apple-mobile-web-app-capable"
+    content="yes">
+
+<meta
+    name="apple-mobile-web-app-status-bar-style"
+    content="black">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span>VM</span>
+            <div>
+                <h2>VM EVENTS</h2>
+                <small>CATERING & EVENTS</small>
+            </div>
+        </div>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#packages">Packages</a>
+            <a href="#booking">Booking</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-title">WELCOME TO</p>
+
+            <h1>VM <span>EVENTS</span></h1>
+
+            <h3>We Make Your Moments Memorable</h3>
+
+            <p>
+                Premium Catering, Wedding Decoration, Birthday Events,
+                DJ, Photography and Complete Event Management.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#booking" class="btn primary-btn">
+                    Book Your Event
+                </a>
+
+                <a href="#" onclick="openWhatsApp()" class="btn whatsapp-btn">
+                    WhatsApp Us
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SERVICES ================= -->
+
+    <section class="section" id="services">
+
+        <div class="section-title">
+            <p>WHAT WE DO</p>
+            <h2>Our <span>Services</span></h2>
+        </div>
+
+        <div class="service-container">
+
+            <div class="service-card">
+                <div class="service-icon">🍽️</div>
+                <h3>Catering</h3>
+                <p>
+                    Delicious food and professional catering
+                    for every special occasion.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">💐</div>
+                <h3>Wedding Decoration</h3>
+                <p>
+                    Beautiful and elegant wedding decoration
+                    designed for your dream day.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🎂</div>
+                <h3>Birthday Events</h3>
+                <p>
+                    Creative birthday decorations and memorable
+                    celebration setups.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🎧</div>
+                <h3>DJ & Music</h3>
+                <p>
+                    DJ, music, sound system and entertainment
+                    for your celebration.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">❄️</div>
+                <h3>Special Effects</h3>
+                <p>
+                    Dry ice, smoke effects, crackers and
+                    special event experiences.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">📸</div>
+                <h3>Photography</h3>
+                <p>
+                    Capture your beautiful moments with
+                    professional photography.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about">
+
+        <div class="about-image">
+            <div class="about-logo">
+                <span>VM</span>
+            </div>
+        </div>
+
+        <div class="about-content">
+
+            <p class="gold-text">ABOUT VM EVENTS</p>
+
+            <h2>
+                Creating Moments
+                <span>Worth Remembering</span>
+            </h2>
+
+            <p>
+                VM Events is your complete event partner for
+                catering, decoration and entertainment.
+                From small birthday celebrations to grand weddings,
+                we bring your ideas to life.
+            </p>
+
+            <div class="about-points">
+                <p>✓ Creative Event Decoration</p>
+                <p>✓ Quality Catering Service</p>
+                <p>✓ Professional Event Management</p>
+                <p>✓ Customized Packages</p>
+            </div>
+
+            <a href="#booking" class="btn primary-btn">
+                Plan Your Event
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= GALLERY ================= -->
+
+    <section class="section gallery-section" id="gallery">
+
+        <div class="section-title">
+            <p>OUR WORK</p>
+            <h2>Event <span>Gallery</span></h2>
+        </div>
+
+        <div class="gallery">
+
+            <div class="gallery-item">
+                <div class="gallery-placeholder">Wedding Event</div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-placeholder">Birthday Event</div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-placeholder">Stage Decoration</div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-placeholder">Catering</div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-placeholder">DJ Event</div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-placeholder">Special Event</div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PACKAGES ================= -->
+
+    <section class="section" id="packages">
+
+        <div class="section-title">
+            <p>CHOOSE YOUR PLAN</p>
+            <h2>Our <span>Packages</span></h2>
+        </div>
+
+        <div class="package-container">
+
+            <div class="package-card">
+
+                <p class="package-type">BASIC</p>
+
+                <h3>Birthday</h3>
+
+                <div class="price">
+                    ₹2,000<span>+</span>
+                </div>
+
+                <ul>
+                    <li>✓ Basic Decoration</li>
+                    <li>✓ Balloon Setup</li>
+                    <li>✓ Birthday Banner</li>
+                    <li>✓ Basic Table Setup</li>
+                </ul>
+
+                <a href="#booking" class="package-btn">
+                    Enquire Now
+                </a>
+
+            </div>
+
+
+            <div class="package-card popular">
+
+                <div class="popular-label">
+                    POPULAR
+                </div>
+
+                <p class="package-type">PREMIUM</p>
+
+                <h3>Celebration</h3>
+
+                <div class="price">
+                    ₹10,000<span>+</span>
+                </div>
+
+                <ul>
+                    <li>✓ Premium Decoration</li>
+                    <li>✓ Stage Setup</li>
+                    <li>✓ DJ & Sound</li>
+                    <li>✓ Special Effects</li>
+                </ul>
+
+                <a href="#booking" class="package-btn">
+                    Enquire Now
+                </a>
+
+            </div>
+
+
+            <div class="package-card">
+
+                <p class="package-type">ROYAL</p>
+
+                <h3>Wedding</h3>
+
+                <div class="price">
+                    ₹25,000<span>+</span>
+                </div>
+
+                <ul>
+                    <li>✓ Wedding Decoration</li>
+                    <li>✓ Catering</li>
+                    <li>✓ Stage Decoration</li>
+                    <li>✓ Event Management</li>
+                </ul>
+
+                <a href="#booking" class="package-btn">
+                    Enquire Now
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= BOOKING ================= -->
+
+    <section class="booking-section" id="booking">
+
+        <div class="section-title">
+            <p>LET'S CELEBRATE</p>
+            <h2>Book Your <span>Event</span></h2>
+        </div>
+
+        <form id="bookingForm" class="booking-form">
+
+            <div class="form-group">
+                <label>Your Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label>Mobile Number</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter mobile number"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label>Event Type</label>
+
+                <select id="eventType" required>
+                    <option value="">Select Event</option>
+                    <option>Birthday</option>
+                    <option>Wedding</option>
+                    <option>Engagement</option>
+                    <option>Baby Shower</option>
+                    <option>Catering</option>
+                    <option>DJ Event</option>
+                    <option>Corporate Event</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Event Date</label>
+
+                <input
+                    type="date"
+                    id="eventDate"
+                    required>
+            </div>
+
+            <div class="form-group full">
+                <label>Event Location</label>
+
+                <input
+                    type="text"
+                    id="location"
+                    placeholder="Enter event location"
+                    required>
+            </div>
+
+            <div class="form-group full">
+                <label>Your Requirements</label>
+
+                <textarea
+                    id="requirements"
+                    rows="5"
+                    placeholder="Tell us about your event..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Send Booking Request
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact-section" id="contact">
+
+        <div class="section-title">
+            <p>GET IN TOUCH</p>
+            <h2>Contact <span>VM Events</span></h2>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-card">
+                <div>📞</div>
+                <h3>Call Us</h3>
+                <p>+91 88701 43864</p>
+            </div>
+
+            <div class="contact-card">
+                <div>💬</div>
+                <h3>WhatsApp</h3>
+                <p>Available for Enquiries</p>
+            </div>
+
+            <div class="contact-card">
+                <div>📍</div>
+                <h3>Location</h3>
+                <p>Bargur,krishnagiri-Tamil Nadu</p>
+            </div>
+
+            <div class="contact-card">
+                <div>📷</div>
+                <h3>Instagram</h3>
+                <a href="https://www.instagram.com/" target="_blank">@vm_events</a>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+            VM EVENTS
+        </div>
+
+        <p>
+            Catering & Events
+        </p>
+
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#" onclick="openWhatsApp()">WhatsApp</a>
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+            © 2026 VM Events. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- FLOATING WHATSAPP -->
+
+    <button class="floating-whatsapp" onclick="openWhatsApp()">
+        💬
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
